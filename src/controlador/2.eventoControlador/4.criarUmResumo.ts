@@ -20,8 +20,6 @@ export const criarUmResumo = async (req: Request, res: Response) => {
       )}`
     );
 
-    const descricaoProvisoria = "Gemini";
-
     const resumoCriado: TResumo = {
       usuarioId: id,
       materiaId: materiaId,
